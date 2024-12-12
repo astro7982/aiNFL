@@ -1,0 +1,42 @@
+{
+    "model": {
+        "name": "llama3.2",
+        "parameters": {
+            "context_length": 65536,
+            "num_ctx": 65536,
+            "num_gpu": 1,
+            "num_thread": 4,
+            "gpu_layers": 35,
+            "temperature": 0.7,
+            "top_p": 0.9,
+            "repeat_penalty": 1.1
+        }
+    },
+    "api": {
+        "base_url": "https://sportsstatsgather.com/api/nfl/data",
+        "espn_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl",
+        "ollama_url": "http://localhost:11434/api/generate",
+        "endpoints": {
+            "depth_chart": "/depthchart",
+            "weather": "/weather",
+            "injury_reports": "/injuryreports",
+            "player_stats": "/playerstats",
+            "team_defense": "/teamdefense",
+            "team_pressure": "/teampasspressure",
+            "team_stats": "/teamstats/team",
+            "game_logs": "/gamelogs",
+            "opp_game_logs": "/oppgamelogs"
+        }
+    },
+    "analysis": {
+        "splits": ["Last 2 Weeks", "Last 4 Weeks"],
+        "views": ["Passing", "Rushing", "Receiving", "Defensive"],
+        "locations": ["Home", "Away"],
+        "save_path": "./analysis_results",
+        "report_formats": {
+            "detailed": true,
+            "summary": true,
+            "betting_focused": true
+        }
+    }
+}

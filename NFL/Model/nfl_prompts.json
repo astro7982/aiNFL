@@ -1,0 +1,29 @@
+{
+  "prompt_1": "# Prompt 1: NFL Game Analysis: Comprehensive Setup and Depth Chart Evaluation\n\nGame: {away_team} @ {home_team}\n\nBetting Information:\n{spread_info}\n{total}\n\nDepth Charts:\n\nHome Team ({home_team}):\n{home_depth}\n\nAway Team ({away_team}):\n{away_depth}\n\nAnalyze:\n1. Starting lineup strengths/weaknesses\n2. Depth at key positions\n3. Notable position battles\n4. Impact on game strategy\n5. How depth charts might influence the spread and total\n\nProvide analysis of:\n- Position groups comparison\n- Key matchups based on depth\n- Potential advantages/disadvantages\n- Impact on game planning\n- How depth advantages might affect betting lines",
+
+  "prompt_2": "# Prompt 2: Weather and Injuries Analysis\n\nGame: {away_team} @ {home_team}\n\nWeather Conditions:\n{weather}\n\nInjury Reports:\n\n{home_team} Injuries:\n{home_injuries}\n\n{away_team} Injuries:\n{away_injuries}\n\nAnalyze:\n1. Weather impact on game strategy\n2. Key injuries affecting each team\n3. Combined weather-injury effects\n4. Impact on betting considerations",
+
+  "prompt_3": "# Prompt 3: Player Home Team Analysis - Last 4 Weeks\n\nTeam: {team}\n\nPassing Stats:\n{passing}\n\nRushing Stats:\n{rushing}\n\nReceiving Stats:\n{receiving}\n\nAnalyze trends and patterns in:\n1. Passing game efficiency\n2. Running game effectiveness\n3. Receiving distribution\n4. Overall offensive performance",
+
+  "prompt_4": "# Prompt 4: Player Home Team Recent Form Analysis - Last 2 Weeks\n\nTeam: {team}\n\nPassing Stats:\n{passing}\n\nRushing Stats:\n{rushing}\n\nReceiving Stats:\n{receiving}\n\nAnalyze recent trends in:\n1. Offensive adjustments\n2. Player usage patterns\n3. Efficiency metrics\n4. Form trajectory",
+
+  "prompt_5": "# Prompt 5: Player Away Team Analysis - Last 4 Weeks\n\nTeam: {team}\n\nPassing Stats:\n{passing}\n\nRushing Stats:\n{rushing}\n\nReceiving Stats:\n{receiving}\n\nAnalyze trends and patterns in:\n1. Passing game efficiency\n2. Running game effectiveness\n3. Receiving distribution\n4. Overall offensive performance",
+
+  "prompt_6": "# Prompt 6: Player Away Team Recent Form Analysis - Last 2 Weeks\n\nTeam: {team}\n\nPassing Stats:\n{passing}\n\nRushing Stats:\n{rushing}\n\nReceiving Stats:\n{receiving}\n\nAnalyze recent trends in:\n1. Offensive adjustments\n2. Player usage patterns\n3. Efficiency metrics\n4. Form trajectory",
+
+  "prompt_7": "# Prompt 7: Player Home Team Defensive Analysis\n\nTeam: {team}\n\nLast 2 Weeks Defense:\n{defense_2wk}\n\nLast 4 Weeks Defense:\n{defense_4wk}\n\nAnalyze:\n1. Recent defensive performance\n2. Trend identification\n3. Key defensive metrics\n4. Impact on game planning",
+
+  "prompt_8": "# Prompt 8: Player Away Team Defensive Analysis\n\nTeam: {team}\n\nLast 2 Weeks Defense:\n{defense_2wk}\n\nLast 4 Weeks Defense:\n{defense_4wk}\n\nAnalyze:\n1. Recent defensive performance\n2. Trend identification\n3. Key defensive metrics\n4. Impact on game planning",
+
+  "prompt_9": "# Prompt 9: Team Defense Analysis\n\nGame: {home_team} vs {away_team}\n\nHome Team Defense:\n{home_defense}\n\nAway Team Defense:\n{away_defense}\n\nAnalyze:\n1. Overall defensive efficiency\n2. Key defensive metrics\n3. Matchup implications\n4. Betting impact",
+
+  "prompt_10": "# Prompt 10: Team Pass Rushing and Missed Tackles Analysis\n\nGame: {home_team} vs {away_team}\n\nHome Team Pressure Stats:\n{home_pressure}\n\nAway Team Pressure Stats:\n{away_pressure}\n\nAnalyze:\n1. Pass rush effectiveness\n2. Protection schemes\n3. Missed tackle impact\n4. Game planning implications",
+
+  "prompt_11": "# Prompt 11: Team Stats Analysis\n\nGame: {home_team} vs {away_team}\n\nHome Team Stats:\n{home_stats}\n\nAway Team Stats:\n{away_stats}\n\nAnalyze:\n1. Penalties and impact\n2. Third down efficiency\n3. Red zone performance\n4. Key statistical advantages",
+
+  "prompt_12": "# Prompt 12: Pass Protection and Scramble Analysis\n\nGame: {home_team} vs {away_team}\n\nHome Team Protection:\n{home_protection}\n\nAway Team Protection:\n{away_protection}\n\nAnalyze:\n1. Protection schemes\n2. Quarterback mobility\n3. Pressure handling\n4. Impact on game planning",
+
+  "prompt_13": "# Prompt 13: Game Logs Analysis\n\nGame: {home_team} vs {away_team}\n\nHome Team Logs:\n{home_logs}\n\nAway Team Logs:\n{away_logs}\n\nHome Team vs Opponents:\n{home_opp}\n\nAway Team vs Opponents:\n{away_opp}\n\nAnalyze:\n1. Recent performance trends\n2. Strength of schedule\n3. Home/away splits\n4. Key statistical trends",
+
+  "prompt_14": "# Prompt 14: Comprehensive Betting Analysis\n\n{game_info}\n\nBetting Lines:\n- Point Spread: {home_team} {spread_home} vs {away_team} {spread_away}\n- Game Total (Over/Under): {total}\n\nBased on the following data gathered for each team:\n{analyses}\n\nProvide clear recommendations addressing:\n1. Which team to bet on against the spread and why (use full team names, not Team A/B)\n2. Whether to bet the over or under on the total and why\n3. Analysis of line value based on all data\n4. Confidence level in each recommendation\n5. Key factors influencing the betting decision\n\nFormat the response with specific sections for:\n- Spread Analysis and Recommendation (ALWAYS use actual team names, never Team A/B)\n- Total Analysis and Recommendation\n- Confidence Level (High/Medium/Low)\n- Key Supporting Data Points\n\nIMPORTANT: Always use the actual team names ({home_team} and {away_team}) throughout the analysis. Never use placeholders like 'Team A' or 'Team B'. All statistics and analysis should explicitly reference the specific teams by their full names."
+}

@@ -1,0 +1,29 @@
+{
+    "prompt_1": "# Team Depth Chart Analysis\nGame: {away_team} @ {home_team}\nVenue: {venue}\n\nAnalyze depth charts for both teams:\n\nHome Team Chart:\n{home_depth}\n\nAway Team Chart:\n{away_depth}\n\nFocus on:\n1. Starting lineup strengths/weaknesses\n2. Depth at key positions\n3. Notable position battles\n4. Impact on game strategy",
+
+    "prompt_2": "# Weather and Injuries Analysis\nGame conditions and injury impact:\n\nWeather Data:\n{weather}\n\nInjury Reports:\nHome Team ({home_team}):\n{home_injuries}\n\nAway Team ({away_team}):\n{away_injuries}\n\nAnalyze:\n1. Weather impact on game strategy\n2. Key injuries affecting each team\n3. Combined weather-injury effects\n4. Impact on betting considerations",
+
+    "prompt_3": "# Home Team Analysis (Last 4 Weeks)\nTeam: {home_team}\n\nPassing Stats:\n{passing}\n\nRushing Stats:\n{rushing}\n\nReceiving Stats:\n{receiving}\n\nAnalyze trends in:\n1. Passing game efficiency\n2. Running game effectiveness\n3. Receiving distribution\n4. Overall offensive performance",
+
+    "prompt_4": "# Home Team Recent Form (Last 2 Weeks)\nTeam: {home_team}\n\nPassing Stats:\n{passing}\n\nRushing Stats:\n{rushing}\n\nReceiving Stats:\n{receiving}\n\nAnalyze:\n1. Recent adjustments\n2. Performance changes\n3. Strategic shifts\n4. Form trajectory",
+
+    "prompt_5": "# Away Team Analysis (Last 4 Weeks)\nTeam: {away_team}\n\nPassing Stats:\n{passing}\n\nRushing Stats:\n{rushing}\n\nReceiving Stats:\n{receiving}\n\nAnalyze trends in:\n1. Passing game efficiency\n2. Running game effectiveness\n3. Receiving distribution\n4. Overall offensive performance",
+
+    "prompt_6": "# Away Team Recent Form (Last 2 Weeks)\nTeam: {away_team}\n\nPassing Stats:\n{passing}\n\nRushing Stats:\n{rushing}\n\nReceiving Stats:\n{receiving}\n\nAnalyze:\n1. Recent adjustments\n2. Performance changes\n3. Strategic shifts\n4. Form trajectory",
+
+    "prompt_7": "# Home Team Defensive Analysis\nTeam: {home_team}\n\nLast 2 Weeks Defense:\n{defense_2wk}\n\nLast 4 Weeks Defense:\n{defense_4wk}\n\nAnalyze:\n1. Recent defensive performance\n2. Trend identification\n3. Key defensive metrics\n4. Impact on game planning",
+
+    "prompt_8": "# Away Team Defensive Analysis\nTeam: {away_team}\n\nLast 2 Weeks Defense:\n{defense_2wk}\n\nLast 4 Weeks Defense:\n{defense_4wk}\n\nAnalyze:\n1. Recent defensive performance\n2. Trend identification\n3. Key defensive metrics\n4. Impact on game planning",
+
+    "prompt_9": "# Team Defense Comparison\nGame: {home_team} vs {away_team}\n\nHome Team Defense:\n{home_defense}\n\nAway Team Defense:\n{away_defense}\n\nAnalyze:\n1. Overall defensive efficiency\n2. Key defensive metrics\n3. Matchup implications\n4. Betting impact",
+
+    "prompt_10": "# Pass Rush and Pressure Analysis\nGame: {home_team} vs {away_team}\n\nHome Team Pressure Stats:\n{home_pressure}\n\nAway Team Pressure Stats:\n{away_pressure}\n\nAnalyze:\n1. Pass rush effectiveness\n2. Protection schemes\n3. Missed tackle impact\n4. Game planning implications",
+
+    "prompt_11": "# Team Efficiency Analysis\nGame: {home_team} vs {away_team}\n\nHome Team Stats:\n{home_stats}\n\nAway Team Stats:\n{away_stats}\n\nAnalyze:\n1. Penalties and impact\n2. Third down efficiency\n3. Red zone performance\n4. Key statistical advantages",
+
+    "prompt_12": "# Pass Protection and Scramble Analysis\nGame: {home_team} vs {away_team}\n\nHome Team Protection:\n{home_protection}\n\nAway Team Protection:\n{away_protection}\n\nAnalyze:\n1. Protection schemes\n2. Quarterback mobility\n3. Pressure handling\n4. Impact on game planning",
+
+    "prompt_13": "# Game Logs Analysis\nGame: {home_team} vs {away_team}\n\nHome Team Logs:\n{home_logs}\n\nAway Team Logs:\n{away_logs}\n\nHome vs Opponents:\n{home_opp}\n\nAway vs Opponents:\n{away_opp}\n\nAnalyze:\n1. Recent performance trends\n2. Strength of schedule\n3. Home/away splits\n4. Key statistical trends",
+
+    "prompt_14": "# Comprehensive Betting Analysis\n\nGame Information:\n{game_info}\n\nBased on all previous analyses:\n{analyses}\n\nProvide detailed recommendations for:\n1. Spread betting\n2. Over/Under\n3. Team totals\n4. Key props\n\nInclude confidence levels and supporting data for each recommendation."
+}

@@ -1,0 +1,11 @@
+2024-12-09 14:00:50,262 - __main__ - INFO - Initializing NFL Training Dataset Generator
+2024-12-09 14:00:50,262 - __main__ - INFO - Initializing prompt templates
+2024-12-09 14:00:50,262 - __main__ - INFO - Successfully initialized all prompt templates
+2024-12-09 14:00:50,262 - __main__ - INFO - Successfully initialized all data structures
+2024-12-09 14:00:50,262 - __main__ - INFO - Generating 1000 training examples...
+2024-12-09 14:00:50,262 - __main__ - INFO - Generating dataset with 1000 examples
+2024-12-09 14:00:51,783 - __main__ - INFO - Successfully generated 7936 training examples
+2024-12-09 14:00:51,783 - __main__ - INFO - Saving dataset to nfl_training_data.jsonl...
+2024-12-09 14:00:51,783 - __main__ - INFO - Saving dataset to nfl_training_data.jsonl
+2024-12-09 14:00:51,847 - __main__ - INFO - Successfully saved 7936 examples to nfl_training_data.jsonl
+2024-12-09 14:00:51,847 - __main__ - INFO - Dataset generation complete!

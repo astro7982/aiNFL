@@ -1,0 +1,195 @@
+{
+    "depthchart": {
+        "description": "Team depth chart showing player positions and rankings",
+        "fields": {
+            "Position": "Player's primary position (QB, RB, WR, etc.)",
+            "Section": "Team section (Offensive/Defensive Positions)",
+            "Starter": "Starting player name",
+            "2ND": "Second string player name",
+            "3RD": "Third string player name",
+            "4TH": "Fourth string player name"
+        },
+        "example": {
+            "Position": "QB",
+            "Section": "Offensive Positions",
+            "Starter": "Jameis Winston",
+            "2ND": "Dorian Thompson-Robinson",
+            "3RD": "Bailey Zappe",
+            "4TH": "-"
+        }
+    },
+    "weather": {
+        "description": "Game weather conditions and forecast",
+        "fields": {
+            "Away Team": "Visiting team name",
+            "Home Team": "Home team name",
+            "Game Time": "Game start time (format: MM/DD HH:MM AM/PM ET)",
+            "Stadium": "Venue name",
+            "Temperature": "Expected temperature with degree symbol",
+            "Precipitation Chance": "Chance of precipitation as percentage",
+            "Weather Condition": "Current weather description",
+            "Wind Direction": "Wind direction abbreviation",
+            "Wind Speed": "Wind speed in mph"
+        },
+        "example": {
+            "Away Team": "Los Angeles Rams",
+            "Game Time": "12/12 8:15 PM ET",
+            "Home Team": "San Francisco 49ers",
+            "Precipitation Chance": "10%",
+            "Stadium": "Levi's Stadium",
+            "Temperature": "54°",
+            "Weather Condition": "Sunny",
+            "Wind Direction": "WNW",
+            "Wind Speed": 8
+        }
+    },
+    "injuryreports": {
+        "description": "Team injury report with player status",
+        "fields": {
+            "Name": "Player full name",
+            "Pos": "Player position abbreviation",
+            "Team": "Team name",
+            "Injury": "Type of injury",
+            "Status": "Player status (OUT, QUESTIONABLE, etc.)",
+            "Details": "Detailed injury information",
+            "Updated": "Last update date (MM/DD)"
+        },
+        "example": {
+            "Details": "Thomas is placed on the injured reserve list due to broken right forearm",
+            "Injury": "Forearm",
+            "Name": "Ambry Thomas",
+            "Pos": "CB",
+            "Status": "I-R",
+            "Team": "San Francisco 49ers",
+            "Updated": "12/10"
+        }
+    },
+    "playerstats": {
+        "description": "Player statistics for specified time period",
+        "fields": {
+            "Name": "Player full name",
+            "Position": "Player position",
+            "Team": "Team name",
+            "Passing": {
+                "ATT": "Pass attempts",
+                "CMP": "Completions",
+                "YDS": "Passing yards",
+                "TD": "Passing touchdowns",
+                "INT": "Interceptions",
+                "RATE": "Passer rating"
+            },
+            "Rushing": {
+                "ATT": "Rush attempts",
+                "YDS": "Rushing yards",
+                "TD": "Rushing touchdowns",
+                "AVG": "Yards per carry"
+            },
+            "Receiving": {
+                "REC": "Receptions",
+                "TGT": "Targets",
+                "YDS": "Receiving yards",
+                "TD": "Receiving touchdowns",
+                "AVG": "Yards per reception"
+            }
+        },
+        "example": {
+            "Name": "Matthew Stafford",
+            "Position": "Quarterback",
+            "Team": "Los Angeles Rams",
+            "Passing Last 4 Weeks ATT": 117.0,
+            "Passing Last 4 Weeks CMP": 79.0,
+            "Passing Last 4 Weeks YDS": 1041.0,
+            "Passing Last 4 Weeks TD": 10.0,
+            "Passing Last 4 Weeks INT": 0.0
+        }
+    },
+    "teamdefense": {
+        "description": "Team defensive statistics",
+        "fields": {
+            "Team": "Team name",
+            "Games": "Games played",
+            "Points_Against": "Points allowed",
+            "Total_Yards": "Total yards allowed",
+            "Passing_Yards": "Passing yards allowed",
+            "Rushing_Yards": "Rushing yards allowed",
+            "Turnovers": "Turnovers forced",
+            "Sacks": "Total sacks"
+        },
+        "example": {
+            "Games": 13,
+            "Points_Against": 292,
+            "Team": "Miami Dolphins",
+            "Total_Yards": 4139,
+            "Turnovers": 11,
+            "Expected_Points": -24.22
+        }
+    },
+    "teampasspressure": {
+        "description": "Team pass rush and pressure statistics",
+        "fields": {
+            "Team": "Team name",
+            "Passing Bltz": "Blitzes",
+            "Passing Hits": "QB hits",
+            "Passing Hrry": "Hurries",
+            "Passing PktTime": "Pocket time",
+            "Passing Prss": "Total pressures",
+            "Passing Prss%": "Pressure percentage",
+            "Passing Scrm": "Scrambles",
+            "Passing Yds/Scr": "Yards per scramble"
+        },
+        "example": {
+            "Passing Bltz": 83,
+            "Passing Hits": 46,
+            "Passing PktTime": 2.4,
+            "Team": "Atlanta Falcons",
+            "Passing Prss%": "20.2%"
+        }
+    },
+    "teamstats": {
+        "description": "Team statistical performance metrics",
+        "fields": {
+            "Team": "Team name",
+            "Stat Scenario": "Statistical category",
+            "2024": "Current season value",
+            "2023": "Previous season value",
+            "Home": "Home performance",
+            "Away": "Away performance",
+            "Last 1": "Last game",
+            "Last 3": "Last three games",
+            "Rank": "League rank"
+        },
+        "example": {
+            "2024": "6.2",
+            "Away": "6.9",
+            "Home": "5.3",
+            "Last 1": "7.0",
+            "Rank": 13,
+            "Stat Scenario": "Penalties Per Game",
+            "Team": "Buffalo Bills"
+        }
+    },
+    "gamelogs": {
+        "description": "Team game-by-game performance logs",
+        "fields": {
+            "Date": "Game date",
+            "Team": "Team name",
+            "Opp": "Opponent",
+            "Location": "Home/Away",
+            "Score_Tm": "Team score",
+            "Score_Opp": "Opponent score",
+            "Passing_Stats": "Passing statistics",
+            "Rushing_Stats": "Rushing statistics",
+            "Downs": "Down conversion rates",
+            "ToP": "Time of possession"
+        },
+        "example": {
+            "Date": "November 17",
+            "Location": "Home",
+            "Opp": "Seattle Seahawks",
+            "Score_Tm": 17,
+            "Score_Opp": 20,
+            "Team": "San Francisco 49ers",
+            "ToP": "33:25"
+        }
+    }
+}

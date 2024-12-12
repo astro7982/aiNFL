@@ -1,0 +1,31 @@
+{
+    "depth_charts": {
+        "template": "# NFL Game Analysis: Depth Chart Evaluation\n\nGame Context:\n- Home Team: {home_team}\n- Away Team: {away_team}\n- Venue: {venue}\n- Date: {date}\n\nData Structure:\n{data_context}\n\nExample Data Format:\n{example}\n\nCurrent Data:\n{data}\n\nRequired Analysis:\n1. Starting Lineup Evaluation\n   - Compare offensive starters\n   - Compare defensive starters\n   - Identify key matchups\n\n2. Depth Analysis\n   - Assess backup quality\n   - Evaluate position group depth\n   - Note any concerning thin positions\n\n3. Strategic Implications\n   - How depth affects game planning\n   - Potential mismatches to exploit\n   - Impact on different phases of game\n\n4. Betting Considerations\n   - How depth charts influence spread\n   - Impact on game totals\n   - Key player matchups affecting odds\n\nProvide detailed analysis with specific players and positions referenced.",
+        "context_requirements": ["team_rosters", "injury_reports", "recent_performance"]
+    },
+    
+    "weather_injuries": {
+        "template": "# Weather and Injuries Analysis\n\nGame Context:\n- Home Team: {home_team}\n- Away Team: {away_team}\n- Venue: {venue}\n- Date: {date}\n\nData Structure:\n{data_context}\n\nExample Data Format:\n{example}\n\nCurrent Data:\n{data}\n\nRequired Analysis:\n1. Weather Impact Assessment\n   - Temperature effects\n   - Wind impact on passing/kicking\n   - Precipitation considerations\n   - Historical performance in similar conditions\n\n2. Injury Analysis\n   - Key player availability\n   - Position group impacts\n   - Depth chart adjustments\n   - Historical performance without injured players\n\n3. Combined Effects\n   - Weather impact on injured players\n   - Strategic adjustments needed\n   - Player rotation implications\n\n4. Betting Implications\n   - Impact on game total\n   - Spread considerations\n   - Player prop implications\n\nProvide specific analysis with statistical evidence and clear reasoning.",
+        "context_requirements": ["weather_data", "injury_reports", "venue_history"]
+    },
+    
+    "recent_performance": {
+        "template": "# Recent Team Performance Analysis\n\nGame Context:\n- Team: {team}\n- Time Period: {period}\n- Location: {location}\n\nData Structure:\n{data_context}\n\nExample Data Format:\n{example}\n\nCurrent Data:\n{data}\n\nRequired Analysis:\n1. Offensive Efficiency\n   - Passing game metrics\n   - Rushing attack effectiveness\n   - Scoring efficiency\n   - Red zone performance\n\n2. Key Player Performance\n   - Quarterback statistics\n   - Running back production\n   - Receiver effectiveness\n   - Offensive line metrics\n\n3. Trend Analysis\n   - Performance trajectory\n   - Situational efficiency\n   - Playing style evolution\n   - Strategic adjustments\n\n4. Betting Implications\n   - Impact on team totals\n   - Player prop considerations\n   - Momentum factors\n\nProvide detailed statistical analysis with specific metrics and trends.",
+        "context_requirements": ["player_stats", "team_stats", "historical_data"]
+    },
+
+    "defensive_analysis": {
+        "template": "# Team Defensive Analysis\n\nGame Context:\n- Team: {team}\n- Time Period: {period}\n- Location: {location}\n\nData Structure:\n{data_context}\n\nExample Data Format:\n{example}\n\nCurrent Data:\n{data}\n\nRequired Analysis:\n1. Overall Defensive Efficiency\n   - Points allowed trends\n   - Yards allowed by type\n   - Situational defense\n   - Turnover creation\n\n2. Unit Performance\n   - Front seven effectiveness\n   - Secondary coverage metrics\n   - Pressure generation\n   - Run defense statistics\n\n3. Trend Identification\n   - Recent adjustments\n   - Performance patterns\n   - Situational tendencies\n   - Key personnel impact\n\n4. Betting Implications\n   - Impact on game total\n   - Defensive scoring potential\n   - Turnover projections\n\nProvide comprehensive analysis with statistical support.",
+        "context_requirements": ["defensive_stats", "opponent_stats", "situational_data"]
+    },
+
+    "game_logs": {
+        "template": "# Game Logs Analysis\n\nGame Context:\n- Team: {team}\n- Recent Games: {recent_games}\n- Performance Metrics: {metrics}\n\nData Structure:\n{data_context}\n\nExample Data Format:\n{example}\n\nCurrent Data:\n{data}\n\nRequired Analysis:\n1. Recent Performance Trends\n   - Scoring patterns\n   - Yardage production\n   - Efficiency metrics\n   - Situational success\n\n2. Opposition Analysis\n   - Quality of opponents\n   - Performance vs similar teams\n   - Home/away splits\n   - Weather impacts\n\n3. Statistical Patterns\n   - First half vs second half\n   - Close game performance\n   - Margin of victory/defeat\n   - Time of possession\n\n4. Betting Implications\n   - ATS performance\n   - Over/under trends\n   - First half trends\n   - Scoring patterns\n\nProvide detailed analysis with specific game references.",
+        "context_requirements": ["game_logs", "opponent_data", "situational_stats"]
+    },
+
+    "final_analysis": {
+        "template": "# Comprehensive Game Analysis and Betting Projection\n\nGame Context:\n- Home Team: {home_team}\n- Away Team: {away_team}\n- Venue: {venue}\n- Date: {date}\n- Weather: {weather}\n- Key Injuries: {injuries}\n\nAll Previous Analyses:\n{previous_analyses}\n\nRequired Final Analysis:\n1. Game Projection\n   - Expected game flow\n   - Key matchup advantages\n   - Critical factors\n   - Score projection\n\n2. Betting Analysis\n   - Spread evaluation\n   - Total analysis\n   - Team total projections\n   - Prop opportunities\n\n3. Confidence Assessment\n   - Key supporting factors\n   - Risk elements\n   - Variance considerations\n   - Recommended unit sizing\n\n4. Additional Considerations\n   - Weather impact\n   - Injury implications\n   - Travel factors\n   - Rest advantage\n\nProvide final comprehensive betting analysis with clear recommendations.",
+        "context_requirements": ["all_previous_analyses", "market_odds", "weather_data", "injury_reports"]
+    }
+}
